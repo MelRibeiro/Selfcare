@@ -50,13 +50,13 @@ header .container {
 }
 
 #animationLogo {
-    animation-duration: 3s;
+    animation-duration: .3s;
     animation-name: logo;
 }
 
 @keyframes logo {
     from {
-        margin-right: 70%;
+        margin-right: 50%;
     }
 
     to {
@@ -211,7 +211,7 @@ footer .wrapper-newletter button:hover {
 }
 
 
-/* ========================= */
+/* ================= */
 
 
 

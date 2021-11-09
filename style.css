@@ -270,11 +270,6 @@ li:hover {
         flex-direction: column;
     }
 
-    footer .wrapper .wrapper-newletter {
-        display: flex;
-        flex-direction: column;
-    }
-
     footer .wrapper .wrapper-newletter input {
         width: 346px;
         height: 43px;

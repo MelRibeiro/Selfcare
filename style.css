@@ -250,7 +250,12 @@ li:hover {
 
 
 
-@media  screen and (min-width: 425px ) {
+@media  screen and (max-width: 320px) {
+
+    img {
+        width: 30%;
+    }
+
     body {
         width: 100vw;
         height: 100vh;
@@ -264,4 +269,69 @@ li:hover {
         display: flex;
         flex-direction: column;
     }
-}
+
+    footer .wrapper .wrapper-newletter {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer .wrapper .wrapper-newletter input {
+        width: 346px;
+        height: 43px;
+        border-radius: 3px;
+    }
+
+    footer .wrapper .wrapper-newletter button {
+        width: 346px;
+        height: 43px;
+        border-radius: 3px;
+    }
+
+    }
+
+
+
+@media  screen and (max-width: 320px) {
+
+    img {
+        width: 30%;
+    }
+
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+    main .container .wrapper {
+        display:flex;
+        flex-direction: column;
+    }
+
+    footer .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer .wrapper .wrapper-newletter {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer .wrapper .wrapper-newletter input {
+        width: 346px;
+        height: 43px;
+        border-radius: 3px;
+    }
+
+    footer .wrapper .wrapper-newletter button {
+        width: 346px;
+        height: 43px;
+        border-radius: 3px;
+    }
+
+    }
+
+
+
+
+
+

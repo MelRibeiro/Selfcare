@@ -247,3 +247,21 @@ li:hover {
     transform: translateY(-15%);
     cursor:pointer;
 }
+
+
+
+@media  screen and (max-width: 320px ) {
+    body {
+        width: 100vw;
+        height: 100vh;
+    }
+    main .container .wrapper {
+        display:flex;
+        flex-direction: column;
+    }
+
+    footer .wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+}
